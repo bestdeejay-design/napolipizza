@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Napoli Pizza - Итальянский ресторан с двумя звездами Michelin</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">
+                <span class="logo-text">Napoli<span class="accent">Pizza</span></span>
+            </a>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu" class="nav-link">Меню</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Галерея</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#reservation" class="nav-link">Бронь</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">
+                <span class="title-subtitle">Добро пожаловать в</span>
+                <span class="title-main">Napoli Pizza</span>
+                <span class="title-description">Настоящая итальянская кухня<br>с душой Неаполя</span>
+            </h1>
+            <p class="hero-text">
+                Ресторан с двумя звездами Michelin, где традиции встречаются с современным искусством кулинарии
+            </p>
+            <div class="hero-buttons">
+                <a href="#reservation" class="btn btn-primary">Забронировать столик</a>
+                <a href="#menu" class="btn btn-secondary">Посмотреть меню</a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images">
+                    <div class="about-img about-img-1">
+                        <svg viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="chefGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect width="600" height="800" fill="url(#chefGrad1)"/>
+                            <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" 
+                                  font-family="Georgia, serif" font-size="80" fill="white">👨‍🍳</text>
+                            <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" 
+                                  font-family="Georgia, serif" font-size="24" fill="white">Шеф-повар</text>
+                        </svg>
+                    </div>
+                    <div class="about-img about-img-2">
+                        <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="ovenGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect width="400" height="500" fill="url(#ovenGrad1)"/>
+                            <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" 
+                                  font-family="Georgia, serif" font-size="80" fill="white">🔥</text>
+                            <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" 
+                                  font-family="Georgia, serif" font-size="24" fill="white">Дровяная печь</text>
+                        </svg>
+                    </div>
+                    <div class="experience-badge">
+                        <span class="exp-number" data-target="25">25+</span>
+                        <span class="exp-text">лет опыта</span>
+                    </div>
+                </div>
+                
+                <div class="about-content">
+                    <span class="section-subtitle">Наша история</span>
+                    <h2 class="section-title">Искусство настоящей<br>неаполитанской пиццы</h2>
+                    <p class="about-text">
+                        Мы привезли секрет идеальной пиццы прямо из сердца Неаполя. Наши мастера используют только традиционные итальянские рецепты, передающиеся из поколения в поколение.
+                    </p>
+                    <p class="about-text">
+                        Каждая пицца готовится в дровяной печи при температуре 485°C в течение ровно 90 секунд — это золотой стандарт неаполитанской пиццы.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">🌾</div>
+                            <div class="feature-content">
+                                <h4>Итальянская мука</h4>
+                                <p>Только сертифицированная мука типа "00" из Неаполя</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🍅</div>
+                            <div class="feature-content">
+                                <h4>Сан-Марцано</h4>
+                                <p>Помидоры DOP с вулканических почв Везувия</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🧀</div>
+                            <div class="feature-content">
+                                <h4>Моцарелла DOP</h4>
+                                <p>Свежая моцарелла от лучших сыроваров Кампании</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#menu" class="btn btn-primary">Изучить меню</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu section" id="menu">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Наше меню</span>
+                <h2 class="section-title">Легендарные вкусы<br>Италии</h2>
+            </div>
+
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-tab="pizza">Пицца</button>
+                <button class="menu-tab" data-tab="pasta">Паста</button>
+                <button class="menu-tab" data-tab="salads">Салаты</button>
+                <button class="menu-tab" data-tab="desserts">Десерты</button>
+                <button class="menu-tab" data-tab="drinks">Напитки</button>
+            </div>
+
+            <div class="menu-content">
+                <!-- Pizza Tab -->
+                <div class="menu-items active" id="pizza">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3 class="menu-item-title">Margherita DOP</h3>
+                            <p class="menu-item-description">Томаты San Marzano DOP, моцарелла Fiordilatte, свежий базилик, оливковое масло extra virgin</p>
+                            <span class="menu-item-price">€12</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3 class="menu-item-title">Diavola</h3>
+                            <p class="menu-item-description">Томаты San Marzano, моцарелла, острая салями 'Nduja, перец чили, каперсы</p>
+                            <span class="menu-item-price">€15</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3 class="menu-item-title">Quattro Formaggi</h3>
+                            <p class="menu-item-description">Моцарелла, горгонзола, пармезан, фонтина, мед акации, грецкие орехи</p>
+                            <span class="menu-item-price">€16</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3 class="menu-item-title">Prosciutto e Funghi</h3>
+                            <p class="menu-item-description">Томаты, моцарелла, прошутто crudo, шампиньоны, руккола, пармезан</p>
+                            <span class="menu-item-price">€17</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3 class="menu-item-title">Marinara</h3>
+                            <p class="menu-item-description">Томаты San Marzano, чеснок, орегано, оливковое масло (классика без сыра)</p>
+                            <span class="menu-item-price">€10</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3 class="menu-item-title">Capricciosa</h3>
+                            <p class="menu-item-description">Томаты, моцарелла, артишоки, грибы, ветчина, маслины</p>
+                            <span class="menu-item-price">€16</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pasta Tab -->
+                <div class="menu-items" id="pasta">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3 class="menu-item-title">Carbonara</h3>
+                            <p class="menu-item-description">Спагетти, гуанчиале, пекорино романо, яичный желток, черный перец</p>
+                            <span class="menu-item-price">€14</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3 class="menu-item-title">Amatriciana</h3>
+                            <p class="menu-item-description">Ригатони, гуанчиале, томаты, пекорино, белое вино</p>
+                            <span class="menu-item-price">€13</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3 class="menu-item-title">Cacio e Pepe</h3>
+                            <p class="menu-item-description">Тоннарелли, пекорино романо, свежемолотый черный перец</p>
+                            <span class="menu-item-price">€12</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Salads Tab -->
+                <div class="menu-items" id="salads">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3 class="menu-item-title">Caprese</h3>
+                            <p class="menu-item-description">Моцарелла буйволица, томаты Cuore di Bue, базилик, оливковое масло</p>
+                            <span class="menu-item-price">€11</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3 class="menu-item-title">Rucola e Parmigiano</h3>
+                            <p class="menu-item-description">Свежая руккола, стружка пармезана, кедровые орешки, бальзамический крем</p>
+                            <span class="menu-item-price">€10</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desserts Tab -->
+                <div class="menu-items" id="desserts">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3 class="menu-item-title">Tiramisu</h3>
+                            <p class="menu-item-description">Классический тирамису с маскарпоне и эспрессо</p>
+                            <span class="menu-item-price">€8</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3 class="menu-item-title">Panna Cotta</h3>
+                            <p class="menu-item-description">Ванильная панна котта с ягодным кули</p>
+                            <span class="menu-item-price">€7</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3 class="menu-item-title">Cannolo Siciliano</h3>
+                            <p class="menu-item-description">Сицилийский канноло с рикоттой и фисташками</p>
+                            <span class="menu-item-price">€6</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drinks Tab -->
+                <div class="menu-items" id="drinks">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3 class="menu-item-title">Espresso</h3>
+                            <p class="menu-item-description">Классический итальянский эспрессо</p>
+                            <span class="menu-item-price">€3</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3 class="menu-item-title">Cappuccino</h3>
+                            <p class="menu-item-description">Эспрессо с молочной пенкой</p>
+                            <span class="menu-item-price">€4</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3 class="menu-item-title">Limonata</h3>
+                            <p class="menu-item-description">Домашний лимонад с мятой и лимоном</p>
+                            <span class="menu-item-price">€5</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3 class="menu-item-title">Vino della Casa</h3>
+                            <p class="menu-item-description">Домашнее вино (бокал / бутылка)</p>
+                            <span class="menu-item-price">€6 / €25</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery section" id="gallery">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Галерея</span>
+                <h2 class="section-title">Атмосфера<br>Napoli Pizza</h2>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-large">
+                    <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="interiorGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <rect width="800" height="600" fill="url(#interiorGrad1)"/>
+                        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" 
+                              font-family="Georgia, serif" font-size="100" fill="white">🏛️</text>
+                        <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" 
+                              font-family="Georgia, serif" font-size="28" fill="white">Интерьер</text>
+                    </svg>
+                    <div class="gallery-overlay">
+                        <h3>Уютная атмосфера</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="makingGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#fa709a;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#fee140;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <rect width="400" height="500" fill="url(#makingGrad1)"/>
+                        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" 
+                              font-family="Georgia, serif" font-size="80" fill="white">🍕</text>
+                        <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" 
+                              font-family="Georgia, serif" font-size="24" fill="white">Приготовление</text>
+                    </svg>
+                    <div class="gallery-overlay">
+                        <h3>Мастерство</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="wineGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#a8edea;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#fed6e3;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <rect width="400" height="500" fill="url(#wineGrad1)"/>
+                        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" 
+                              font-family="Georgia, serif" font-size="80" fill="white">🍷</text>
+                        <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" 
+                              font-family="Georgia, serif" font-size="24" fill="white">Вина</text>
+                    </svg>
+                    <div class="gallery-overlay">
+                        <h3>Изысканные вина</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="dessertGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#ffecd2;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#fcb69f;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <rect width="400" height="500" fill="url(#dessertGrad1)"/>
+                        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" 
+                              font-family="Georgia, serif" font-size="80" fill="white">🍰</text>
+                        <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" 
+                              font-family="Georgia, serif" font-size="24" fill="white">Десерты</text>
+                    </svg>
+                    <div class="gallery-overlay">
+                        <h3>Сладкое искусство</h3>
+                    </div>
+                </div>
+                <div class="gallery-item gallery-tall">
+                    <svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="chefGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#d299c2;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#fef9d7;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <rect width="400" height="600" fill="url(#chefGrad2)"/>
+                        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" 
+                              font-family="Georgia, serif" font-size="100" fill="white">👨‍🍳</text>
+                        <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" 
+                              font-family="Georgia, serif" font-size="28" fill="white">Наши шефы</text>
+                    </svg>
+                    <div class="gallery-overlay">
+                        <h3>Наши шефы</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservation section" id="reservation">
+        <div class="container">
+            <div class="reservation-grid">
+                <div class="reservation-content">
+                    <span class="section-subtitle">Бронирование</span>
+                    <h2 class="section-title">Забронируйте<br>ваш столик</h2>
+                    <p class="reservation-text">
+                        Для получения наилучшего впечатления мы рекомендуем бронировать столик заранее. 
+                        Особенно для ужинов в выходные дни и праздники.
+                    </p>
+                    
+                    <div class="reservation-info">
+                        <div class="info-item">
+                            <div class="info-icon">📍</div>
+                            <div class="info-text">
+                                <h4>Адрес</h4>
+                                <p>Via Napoli, 123, Roma</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">🕐</div>
+                            <div class="info-text">
+                                <h4>Часы работы</h4>
+                                <p>Пн-Вс: 12:00 - 23:00</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">📞</div>
+                            <div class="info-text">
+                                <h4>Телефон</h4>
+                                <p>+39 06 1234567</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reservation-form-wrapper">
+                    <form class="reservation-form" id="reservation-form">
+                        <div class="form-group">
+                            <input type="text" id="name" class="form-input" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" class="form-input" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" class="form-input" placeholder="Телефон" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="date" id="date" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <select id="time" class="form-input" required>
+                                    <option value="">Время</option>
+                                    <option value="12:00">12:00</option>
+                                    <option value="13:00">13:00</option>
+                                    <option value="14:00">14:00</option>
+                                    <option value="19:00">19:00</option>
+                                    <option value="20:00">20:00</option>
+                                    <option value="21:00">21:00</option>
+                                    <option value="22:00">22:00</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <select id="guests" class="form-input" required>
+                                <option value="">Количество гостей</option>
+                                <option value="1">1 человек</option>
+                                <option value="2">2 человека</option>
+                                <option value="3">3 человека</option>
+                                <option value="4">4 человека</option>
+                                <option value="5">5-6 человек</option>
+                                <option value="6">Более 6</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" class="form-input" rows="3" placeholder="Особые пожелания"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Забронировать</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Контакты</span>
+                <h2 class="section-title">Свяжитесь с нами</h2>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h3>Адрес</h3>
+                    <p>Via Napoli, 123<br>00100 Roma, Italia</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h3>Телефон</h3>
+                    <p>+39 06 1234567<br>+39 06 1234568</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h3>Email</h3>
+                    <p>info@napolipizza.com<br>prenotazioni@napolipizza.com</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">🕐</div>
+                    <h3>Режим работы</h3>
+                    <p>Пн-Вс: 12:00 - 23:00<br>Кухня: до 22:30</p>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">TripAdvisor</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Napoli Pizza</h4>
+                    <p>Настоящая неаполитанская пицца<br>с двумя звездами Michelin</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#menu">Меню</a></li>
+                        <li><a href="#reservation">Бронь</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Мы в соцсетях</h4>
+                    <div class="social-icons">
+                        <a href="#">IG</a>
+                        <a href="#">FB</a>
+                        <a href="#">TA</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Napoli Pizza. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

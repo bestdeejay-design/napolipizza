@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  napolipizza:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: napolipizza-site
+    ports:
+      - "8080:80"
+    volumes:
+      - ./src:/usr/share/nginx/html
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    restart: unless-stopped
+    networks:
+      - napolipizza-network
+
+networks:
+  napolipizza-network:
+    driver: bridge

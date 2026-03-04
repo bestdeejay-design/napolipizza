@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Napoli - Неаполитанская пицца в Невском районе</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-top">
+            <div class="container header-top-content">
+                <div class="contact-info">
+                    <span class="phone">+7 (999) 169-98-39</span>
+                    <span class="address">ул. Бабушкина 53, стр. 1</span>
+                    <span class="hours">10:00 - 22:00</span>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="nav container">
+            <a href="#" class="nav-logo">
+                <img src="images/logo.png" alt="Pizza Napoli" class="logo-img">
+                <span class="logo-text">Pizza<span>Napoli</span></span>
+            </a>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu" class="nav-link">Меню</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#franchise" class="nav-link">Франшиза</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">
+                <span class="title-main">Мы продаем не пиццу,<br>мы продаём вкус Италии!</span>
+            </h1>
+            <p class="hero-text">
+                Настоящая неаполитанская пицца на тонком тесте с поджаристой корочкой<br>
+                Тесто ферментируется 48 часов для идеального вкуса
+            </p>
+            <div class="hero-buttons">
+                <a href="#order" class="btn btn-primary">Заказать сейчас</a>
+                <a href="#menu" class="btn btn-secondary">Посмотреть меню</a>
+            </div>
+            
+            <div class="promo-badge">
+                <span class="promo-text">Каждая 13-я пицца БЕСПЛАТНО!</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">О нашей пиццерии</span>
+                <h2 class="section-title">Настоящая неаполитанская<br>пицца в Петербурге</h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="about-text-block">
+                        <p class="about-text">
+                            <strong>Pizzeria Pizza Napoli</strong> предлагает неаполитанскую пиццу на тонком тесте с поджаристой корочкой. 
+                            Мы готовим пиццу, кальцоне, хлеб из теста, которое проходит ферментацию 48 часов. 
+                            За счет этого тесто очень мягкое и нежное, усваивается в организме правильно и очень быстро.
+                        </p>
+                        <p class="about-text">
+                            Все пиццы только одного размера — <strong>30 см</strong>. Это золотой стандарт неаполитанской пиццы!
+                        </p>
+                    </div>
+
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">🍕</div>
+                            <h4>Неаполитанская пицца</h4>
+                            <p>30 видов пиццы диаметром 30 см</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🥟</div>
+                            <h4>Кальцоне</h4>
+                            <p>30 видов больших и мини-кальцоне</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🍞</div>
+                            <h4>Неаполитанский хлеб</h4>
+                            <p>На классическом, томатном или ржаном тесте</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🍣</div>
+                            <h4>Sushi & Rolls</h4>
+                            <p>Проект "Sushi & Rolls" в пиццерии</p>
+                        </div>
+                    </div>
+
+                    <div class="promo-block">
+                        <h3>🎉 Акция!</h3>
+                        <p>При покупке 12 любых: пиццы, кальцоне, роллов, вы получаете <strong>13-ю Бесплатно</strong>.</p>
+                        <p>Акция действует постоянно, независимо от того, как часто вы посещаете пиццерию.</p>
+                    </div>
+                </div>
+
+                <div class="about-images">
+                    <div class="about-img-main">
+                        <img src="https://static.tildacdn.com/tild3738-3363-4566-a137-303836336662/_1.jpg" alt="Неаполитанская пицца">
+                    </div>
+                    <div class="about-img-small">
+                        <img src="https://thb.tildacdn.com/tild6338-3434-4237-b564-376332353464/-/resize/20x/_1.jpg" alt="Пицца в разрезе">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Preview Section -->
+    <section class="menu-preview section" id="menu">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Наше меню</span>
+                <h2 class="section-title">Категории продукции</h2>
+            </div>
+
+            <div class="menu-categories-grid">
+                <a href="#order" class="category-card">
+                    <div class="category-image">
+                        <img src="https://static.tildacdn.com/tild3738-3363-4566-a137-303836336662/_1.jpg" alt="Неаполитанская пицца">
+                    </div>
+                    <div class="category-content">
+                        <h3>Неаполитанская пицца</h3>
+                        <p>На тонком тесте с поджаристой корочкой. Диаметр 30 см.</p>
+                        <span class="category-price">от 450 ₽</span>
+                    </div>
+                </a>
+
+                <a href="#order" class="category-card">
+                    <div class="category-image">
+                        <img src="https://thb.tildacdn.com/tild6338-3434-4237-b564-376332353464/-/resize/20x/_1.jpg" alt="Кальцоне">
+                    </div>
+                    <div class="category-content">
+                        <h3>Кальцоне</h3>
+                        <p>Закрытый вид пиццы. 30 видов больших и мини-кальцоне.</p>
+                        <span class="category-price">от 390 ₽</span>
+                    </div>
+                </a>
+
+                <a href="#order" class="category-card">
+                    <div class="category-image">
+                        <img src="https://static.tildacdn.com/tild3738-3363-4566-a137-303836336662/_1.jpg" alt="Неаполитанский хлеб">
+                    </div>
+                    <div class="category-content">
+                        <h3>Неаполитанский хлеб</h3>
+                        <p>На классическом, томатном или ржаном тесте с начинками.</p>
+                        <span class="category-price">от 190 ₽</span>
+                    </div>
+                </a>
+
+                <a href="#order" class="category-card">
+                    <div class="category-image">
+                        <img src="https://thb.tildacdn.com/tild6338-3434-4237-b564-376332353464/-/resize/20x/_1.jpg" alt="Фокаччи">
+                    </div>
+                    <div class="category-content">
+                        <h3>Фокаччи</h3>
+                        <p>Классические фокаччи с соусами и травами.</p>
+                        <span class="category-price">от 220 ₽</span>
+                    </div>
+                </a>
+
+                <a href="#order" class="category-card">
+                    <div class="category-image">
+                        <img src="https://static.tildacdn.com/tild3738-3363-4566-a137-303836336662/_1.jpg" alt="Соусы">
+                    </div>
+                    <div class="category-content">
+                        <h3>Соусы для корочек</h3>
+                        <p>Все соуса мы делаем сами собственного производства.</p>
+                        <span class="category-price">от 90 ₽</span>
+                    </div>
+                </a>
+
+                <a href="#order" class="category-card">
+                    <div class="category-image">
+                        <img src="https://thb.tildacdn.com/tild6338-3434-4237-b564-376332353464/-/resize/20x/_1.jpg" alt="Суши и роллы">
+                    </div>
+                    <div class="category-content">
+                        <h3>Sushi & Rolls</h3>
+                        <p>Проект "Sushi & Rolls" - свежие суши и роллы.</p>
+                        <span class="category-price">от 290 ₽</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section class="order section" id="order">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Онлайн заказ</span>
+                <h2 class="section-title">Оформление заказа</h2>
+            </div>
+
+            <div class="order-grid">
+                <div class="order-form-wrapper">
+                    <form class="order-form" id="order-form">
+                        <h3 class="form-title">Контактные данные</h3>
+                        
+                        <div class="form-group">
+                            <input type="text" id="name" class="form-input" placeholder="Ваше имя *" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" class="form-input" placeholder="Электронная почта *" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="phone" class="form-input" placeholder="Телефон *" required>
+                        </div>
+
+                        <h3 class="form-title">Детали заказа</h3>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date" class="form-label">Дата получения *</label>
+                                <input type="date" id="date" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time" class="form-label">Время *</label>
+                                <select id="time" class="form-input" required>
+                                    <option value="">Выберите время</option>
+                                    <option value="10:00">10:00</option>
+                                    <option value="11:00">11:00</option>
+                                    <option value="12:00">12:00</option>
+                                    <option value="13:00">13:00</option>
+                                    <option value="14:00">14:00</option>
+                                    <option value="15:00">15:00</option>
+                                    <option value="16:00">16:00</option>
+                                    <option value="17:00">17:00</option>
+                                    <option value="18:00">18:00</option>
+                                    <option value="19:00">19:00</option>
+                                    <option value="20:00">20:00</option>
+                                    <option value="21:00">21:00</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Тип доставки *</label>
+                            <div class="delivery-options">
+                                <label class="radio-option">
+                                    <input type="radio" name="delivery" value="pickup" checked>
+                                    <span class="radio-text">Самовывоз (бесплатно)</span>
+                                </label>
+                                <label class="radio-option">
+                                    <input type="radio" name="delivery" value="delivery">
+                                    <span class="radio-text">Доставка курьером</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group delivery-cost hidden" id="delivery-cost-group">
+                            <label class="form-label">Стоимость доставки</label>
+                            <div class="delivery-cost-value">350 ₽</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Способ оплаты *</label>
+                            <div class="payment-options">
+                                <label class="radio-option">
+                                    <input type="radio" name="payment" value="card" checked>
+                                    <span class="radio-text">💳 Оплата картой (Мир, Visa, Mastercard)</span>
+                                </label>
+                                <label class="radio-option">
+                                    <input type="radio" name="payment" value="cash">
+                                    <span class="radio-text">💵 Наличными при получении</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-option">
+                                <input type="checkbox" id="remember-contacts">
+                                <span class="checkbox-text">Запомнить контакты в браузере для повторной покупки</span>
+                            </label>
+                        </div>
+
+                        <div class="form-agreement">
+                            <p class="agreement-text">
+                                Нажимая на кнопку вы соглашаетесь с условиями 
+                                <a href="#" class="agreement-link">политики конфиденциальности</a>
+                            </p>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full btn-large">Перейти к оплате</button>
+                    </form>
+                </div>
+
+                <div class="order-info">
+                    <div class="info-block">
+                        <h3>📍 Адрес пиццерии</h3>
+                        <p>Санкт-Петербург, ул. Бабушкина 53, стр. 1<br>Невский район</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3>🕐 Часы работы</h3>
+                        <p>Ежедневно с 10:00 до 22:00<br>Без выходных</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3>📞 Контакты</h3>
+                        <p>+7 (999) 169-98-39</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3>💳 Способы оплаты</h3>
+                        <ul class="payment-list">
+                            <li>Наличными</li>
+                            <li>Картой</li>
+                            <li>Переводом</li>
+                            <li>Безналичным платежом</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-block highlight">
+                        <h3>🎁 Акция</h3>
+                        <p><strong>Каждая 13-я пицца или маки ролл БЕСПЛАТНО!</strong></p>
+                        <p>При покупке 12 любых позиций вы получаете 13-ю бесплатно.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Franchise Section -->
+    <section class="franchise section" id="franchise">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Франшиза</span>
+                <h2 class="section-title">Покупка франшизы<br>Pizza Napoli</h2>
+            </div>
+
+            <div class="franchise-grid">
+                <div class="franchise-content">
+                    <div class="franchise-text">
+                        <p class="franchise-intro">
+                            Приобретая франшизу у нас, вы приобретаете партнера, с которым вы будете развивать 
+                            этот проект и становиться с каждым годом все лучше и лучше. Как говорится — нет предела совершенству!
+                        </p>
+
+                        <h3>Что вы получаете:</h3>
+                        <ul class="franchise-list">
+                            <li>✅ Самый лучший выбор пиццы в России с соответствующей ценой</li>
+                            <li>✅ Весь ассортимент готовится в каждой пиццерии с нуля</li>
+                            <li>✅ Никаких полуфабрикатов — всегда свежее и качественное</li>
+                            <li>✅ Один стандарт качества во всех пиццериях</li>
+                            <li>✅ Постоянное обновление проекта, новинки, акции</li>
+                        </ul>
+
+                        <h3>Наши требования:</h3>
+                        <ul class="franchise-requirements">
+                            <li>⚠️ Соответствие высокому качеству продукции</li>
+                            <li>⚠️ Соблюдение стандартов компании</li>
+                            <li>⚠️ Готовность развиваться и учиться</li>
+                        </ul>
+
+                        <p class="franchise-warning">
+                            Если франчайзи не соответствует высокому качеству, применяются санкции: 
+                            предупреждения, штрафы, расторжение договора.
+                        </p>
+                    </div>
+
+                    <div class="franchise-cta">
+                        <h3>Готовы начать?</h3>
+                        <p>Звоните, назначайте встречи, задавайте вопросы по финансам, товару, персоналу.</p>
+                        <a href="tel:+79991699839" class="btn btn-primary btn-large">+7 (999) 169-98-39</a>
+                    </div>
+                </div>
+
+                <div class="franchise-features">
+                    <div class="franchise-feature">
+                        <div class="feature-number">48</div>
+                        <div class="feature-desc">часов ферментация теста</div>
+                    </div>
+                    <div class="franchise-feature">
+                        <div class="feature-number">30</div>
+                        <div class="feature-desc">видов пиццы и кальцоне</div>
+                    </div>
+                    <div class="franchise-feature">
+                        <div class="feature-number">100%</div>
+                        <div class="feature-desc">живая еда без полуфабрикатов</div>
+                    </div>
+                    <div class="franchise-feature">
+                        <div class="feature-number">∞</div>
+                        <div class="feature-desc">возможностей для развития</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Контакты</span>
+                <h2 class="section-title">Свяжитесь с нами</h2>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h3>Адрес</h3>
+                    <p>Санкт-Петербург,<br>ул. Бабушкина 53, стр. 1<br>Невский район</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">🕐</div>
+                    <h3>Часы работы</h3>
+                    <p>Ежедневно<br>10:00 - 22:00<br>Без выходных</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h3>Телефон</h3>
+                    <p>+7 (999) 169-98-39</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">💳</div>
+                    <h3>Оплата</h3>
+                    <p>Наличные, карта,<br>перевод, безналичный</p>
+                </div>
+            </div>
+
+            <div class="services-info">
+                <h3>Мы предлагаем:</h3>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <span class="service-icon">🍕</span>
+                        <span>Доставка и самовывоз</span>
+                    </div>
+                    <div class="service-item">
+                        <span class="service-icon">👨‍🍳</span>
+                        <span>Мастер-классы по приготовлению пиццы</span>
+                    </div>
+                    <div class="service-item">
+                        <span class="service-icon">🤝</span>
+                        <span>Партнерство для бизнеса</span>
+                    </div>
+                    <div class="service-item">
+                        <span class="service-icon">📦</span>
+                        <span>Оптовые поставки</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Pizza Napoli</h4>
+                    <p>Настоящая неаполитанская пицца<br>с доставкой по Петербургу</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <ul>
+                        <li>📍 ул. Бабушкина 53, стр. 1</li>
+                        <li>📞 +7 (999) 169-98-39</li>
+                        <li>🕐 10:00 - 22:00</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Разделы</h4>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#menu">Меню</a></li>
+                        <li><a href="#franchise">Франшиза</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Информация</h4>
+                    <ul>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="#">Договор оферты</a></li>
+                        <li><a href="#">Реквизиты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pizza Napoli. Все права защищены.</p>
+                <p class="footer-disclaimer">Мы продаем не пиццу, мы продаём вкус Италии!</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
